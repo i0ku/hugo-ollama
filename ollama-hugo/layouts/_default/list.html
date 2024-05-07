@@ -1,0 +1,12 @@
+
+{{$title := replace .Title "s" ""}}
+{{partial "header.html" . }}
+
+<main>
+    <h1>{{$title}}</h1>
+
+{{ .Content }}
+</main>
+
+
+{{ partial "footer.html" . }}
