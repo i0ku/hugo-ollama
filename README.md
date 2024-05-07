@@ -6,15 +6,15 @@ Et veldig ENKELT brukergrensesnitt for ollama. Fyll inn dine ollama chattboter o
 
 HUSK fyll in chattbotene med riktig navn! 
 
-	ollama list
- resultat:
- 
- 	codellama:34b
-  	llama3:latest
+	ollama list 
+ 		codellama:34b
+  		llama3:latest
   navn i value:
   
   	codellama:34b
 	llama3
+
+:)
 
 Her skal du skrive inn dine egne:
 
