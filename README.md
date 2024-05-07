@@ -16,20 +16,16 @@ HUSK fyll in chattbotene med riktig navn!
 
 :)
 
-Her skal du skrive inn dine egne med navn og value:
+Gå inn i data/models.json og fyll inn dine egne chattboter
 
-    vim ollama-hugo/layouts/index.html
-
-Let etter dette:
-
-    <select id="model_type" name="model">
-		<option value="phi3">phi3:4b</option>
-		<option value="codellama:34b">codellama:34b</option>
-		<option value="dolphin-mixtral">dolphin-mixtral:8x22b</option>
-		<option value="llama2:13b">llama2:13b</option>
-		<option value="llama2-uncensored">llama2-uncensored:13b</option>
-		<option value="llama3">llama3:8b</option>
-    </select>
+	{"model":[
+	    { "value":"phi3", "name":"phi3:4b" },
+	    { "value":"codellama:34b", "name":"codellama:34b" },
+	    { "value":"dolphin-mixtral", "name":"dolphin-mixtral:8x22b" },
+	    { "value":"llama2:13b", "name":"llama2:13b" },
+	    { "value":"llama2-uncensored", "name":"llama2-uncensored:13b" },
+	    { "value":"llama3", "name":"llama3:8b" }
+	  ]}
 
 En siste ting. Sjekk om ollama kjører på
 
