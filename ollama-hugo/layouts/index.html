@@ -2,6 +2,8 @@
 
 		<main>
 
+			
+
 			<h1>{{.Title}}</h1>
 			
             {{ .Content }}
@@ -9,12 +11,7 @@
 			<form id="frm1">
 				Question <textarea name="input" id="the_input" cols="30" rows="10"></textarea>
 				<select id="model_type" name="model">
-					<option value="phi3">phi3:4b</option>
-					<option value="codellama:34b">codellama:34b</option>
-					<option value="dolphin-mixtral">dolphin-mixtral:8x22b</option>
-					<option value="llama2:13b">llama2:13b</option>
-					<option value="llama2-uncensored">llama2-uncensored:13b</option>
-					<option value="llama3">llama3:8b</option>
+					{{ partial "nav.html" . }}	
 				</select>
 				<input type="button" onclick="get_data()" value="Submit" id="submit">
 				<input type="button" onclick="window.location.reload();" value="Restart" >

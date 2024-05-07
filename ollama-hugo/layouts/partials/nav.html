@@ -1,13 +1,5 @@
 
-<header class="site-header">
-  <nav class="site-nav">
-    <ul class="main-menu-home">
-      {{ range.Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">[{{ .Name }}]</a>
-      </li>
-      {{ end }}
-    </ul>
-  </nav>
-</header>
+{{ range $.Site.Data.models.model }}
+<option value="{{ .value }}">{{ .name }}</option>
+{{ end }}
 
