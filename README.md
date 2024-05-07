@@ -20,7 +20,7 @@ Her skal du skrive inn dine egne:
 
     vim ollama-hugo/layouts/index.html
 
-Lett etter dette:
+Let etter dette:
 
     <select id="model_type" name="model">
 		<option value="phi3">phi3:4b</option>
