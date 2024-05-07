@@ -16,7 +16,7 @@ HUSK fyll in chattbotene med riktig navn!
 
 :)
 
-Her skal du skrive inn dine egne:
+Her skal du skrive inn dine egne med navn og value:
 
     vim ollama-hugo/layouts/index.html
 
