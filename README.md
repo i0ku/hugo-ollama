@@ -1,5 +1,7 @@
 # hugo-ollama
 
+	git clone https://github.com/i0ku/hugo-ollama.git
+
 Et veldig ENKELT brukergrensesnitt for ollama. Fyll inn dine ollama chattboter og start ved å bruke: 
     
     cd hugo-ollama ; hugo server --noHTTPCache
