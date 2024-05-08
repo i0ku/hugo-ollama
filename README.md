@@ -16,7 +16,7 @@ HUSK fyll in chattbotene med riktig navn!
   	codellama:34b
 	llama3
 
-:)
+:shipit:
 
 Gå inn i data/models.json og fyll inn dine egne chattboter
 
