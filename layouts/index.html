@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+		<main>
+
+			
+
+			<h1>{{.Title}}</h1>
+			
+            {{ .Content }}
+			<div id="form-container">
+			<form id="frm1">
+				Question <textarea name="input" id="the_input" cols="30" rows="10"></textarea>
+				<select id="model_type" name="model">
+					{{ partial "nav.html" . }}	
+				</select>
+				<input type="button" onclick="get_data()" value="Submit" id="submit">
+				<input type="button" onclick="window.location.reload();" value="Restart" >
+			</form>
+			
+			</div>
+			<div class="loader" style="display: none;"id="loader"></div> 
+			<div id="the_output"></div>
+			
+			<script src="js/script.js"></script>
+
+		</main>
+
+{{ partial "footer.html" . }}
