@@ -1,5 +1,9 @@
 # hugo-ollama
 
+Installer [hugo](https://gohugo.io/installation/)
+
+Last ned:
+
 	git clone https://github.com/i0ku/hugo-ollama.git
 
 Et veldig ENKELT brukergrensesnitt for [ollama](https://ollama.com/). Fyll inn dine ollama chattboter og start ved å bruke: 
