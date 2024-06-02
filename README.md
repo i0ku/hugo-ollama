@@ -8,7 +8,7 @@ Last ned:
 
 Videre:
 
-  		vim data/models.json
+  	vim data/models.json
 
 Et veldig ENKELT brukergrensesnitt for [ollama](https://ollama.com/). Fyll inn dine ollama chattboter og start ved å bruke: 
     
