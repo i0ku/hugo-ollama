@@ -4,8 +4,8 @@ Installer [hugo](https://gohugo.io/installation/)
 
 Last ned:
 
-	git clone https://github.com/i0ku/hugo-ollama.git
-
+	git clone https://github.com/i0ku/hugo-ollama.git; cd hugo-ollama
+ 
 Videre:
 
   	vim data/models.json
