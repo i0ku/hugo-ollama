@@ -6,6 +6,10 @@ Last ned:
 
 	git clone https://github.com/i0ku/hugo-ollama.git
 
+Videre:
+
+  		vim data/models.json
+
 Et veldig ENKELT brukergrensesnitt for [ollama](https://ollama.com/). Fyll inn dine ollama chattboter og start ved å bruke: 
     
     cd hugo-ollama ; hugo server --noHTTPCache
