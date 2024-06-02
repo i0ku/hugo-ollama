@@ -12,7 +12,7 @@ Videre:
 
 Et veldig ENKELT brukergrensesnitt for [ollama](https://ollama.com/). Fyll inn dine ollama chattboter og start ved å bruke: 
     
-    cd hugo-ollama ; hugo server --noHTTPCache
+    hugo server --noHTTPCache
 
 HUSK fyll in chattbotene med riktig navn! 
 
